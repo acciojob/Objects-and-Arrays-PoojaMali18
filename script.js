@@ -5,7 +5,20 @@ const person = {
   age: 80,
 };
 
-// Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+// Write your code here,
+//make sure the name of variables is
+//exactly same as mentioned in the problem statement
+
+
+// Creating a reference to the players array
+const team = players;
+
+// Create a shallow copy of the players array
+const team1 = [...players];
+
+// Create a shallow copy of the person object
+const cap1 = { ...person };
+
 
 window.players = players;
 window.person = person;
